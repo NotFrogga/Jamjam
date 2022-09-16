@@ -20,7 +20,7 @@ public class AudioTrack : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        audioTrackInstance.setParameterByID(ID_Fmod, ID);
+        
     }
 
     public void Play()
@@ -38,6 +38,12 @@ public class AudioTrack : MonoBehaviour
     public void Stop()
     {
         audioTrackInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+    }
+
+    public void SetInstrumentId(int id)
+    {
+        ID = id;
+        audioTrackInstance.setParameterByID(ID_Fmod, ID);
     }
 
 

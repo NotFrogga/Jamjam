@@ -5,6 +5,10 @@ using UnityEngine.UI;
 
 public class MusicUI : MonoBehaviour
 {
+    [SerializeField] public AudioTrack _melodyTrack;
+    [SerializeField] public AudioTrack _drumsTrack;
+    [SerializeField] public AudioTrack _bassTrack;
+
     [SerializeField] public Button _tabMelodyButton;
     [SerializeField] public Button _tabBatteryButton;
     [SerializeField] public Button _tabBassButton;
@@ -56,5 +60,26 @@ public class MusicUI : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void PlayInstrument(Instrument instrument)
+    {
+        switch (instrument.InstrumentType)
+        {
+            case InstrumentType.MELODY:
+                _melodyTrack.SetInstrumentId(instrument.InstrumentId);
+                break;
+            case InstrumentType.DRUMS:
+                _drumsTrack.SetInstrumentId(instrument.InstrumentId);
+                break;
+            case InstrumentType.BASS:
+                _bassTrack.SetInstrumentId(instrument.InstrumentId);
+                break;
+            case InstrumentType.INSTRUMENTNUMBER:
+                break;
+            default:
+                break;
+        }
+
     }
 }
