@@ -1,5 +1,84 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6897593746977173107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Preview Track
+  m_EditorClassIdentifier: 
+  Path: event:/Preview Track
+  Guid:
+    Data1: -1409062026
+    Data2: 1311028196
+    Data3: -367958095
+    Data4: -1901477022
+  Banks:
+  - {fileID: 2441907396592552475}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 8953885908099754840}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-3291485751205396689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Transmitter
+  m_EditorClassIdentifier: 
+  Path: event:/Transmitter
+  Guid:
+    Data1: -1292108272
+    Data2: 1255421648
+    Data3: -1860416843
+    Data4: -1465434152
+  Banks:
+  - {fileID: 2441907396592552475}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 100
+--- !u!114 &-954191676154592442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ducking_Track
+  m_EditorClassIdentifier: 
+  Name: Ducking_Track
+  StudioPath: parameter:/Ducking_Track
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3089436622
+    data2: 4176886549
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12,10 +91,162 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
-  EditorBanks: []
-  EditorEvents: []
-  EditorParameters: []
-  MasterBanks: []
-  StringsBanks: []
-  cacheTime: 0
+  EditorBanks:
+  - {fileID: 2362492104225098156}
+  - {fileID: 2441907396592552475}
+  EditorEvents:
+  - {fileID: -3291485751205396689}
+  - {fileID: -6897593746977173107}
+  - {fileID: 3647961034378484502}
+  - {fileID: 406146019706214986}
+  EditorParameters:
+  - {fileID: -954191676154592442}
+  MasterBanks:
+  - {fileID: 2441907396592552475}
+  StringsBanks:
+  - {fileID: 2362492104225098156}
+  cacheTime: 637989435455883768
   cacheVersion: 131591
+--- !u!114 &406146019706214986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Track
+  m_EditorClassIdentifier: 
+  Path: event:/Track
+  Guid:
+    Data1: 124953799
+    Data2: 1097149585
+    Data3: -1738065996
+    Data4: -1211079823
+  Banks:
+  - {fileID: 2441907396592552475}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 8684418195162275756}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &2362492104225098156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/Fmod JamJam/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 637989435455883768
+  FileSizes:
+  - Name: Desktop
+    Value: 1130
+  Exists: 1
+--- !u!114 &2441907396592552475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/Fmod JamJam/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 637989435455843902
+  FileSizes:
+  - Name: Desktop
+    Value: 93120
+  Exists: 1
+--- !u!114 &3647961034378484502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Ducking
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Ducking
+  Guid:
+    Data1: 784198555
+    Data2: 1253140007
+    Data3: 924222104
+    Data4: -268697822
+  Banks:
+  - {fileID: 2441907396592552475}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &8684418195162275756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Track/ID
+  m_EditorClassIdentifier: 
+  Name: ID
+  StudioPath: 
+  Min: 0
+  Max: 31
+  Default: 0
+  ID:
+    data1: 638224700
+    data2: 339898834
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &8953885908099754840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Preview Track/ID
+  m_EditorClassIdentifier: 
+  Name: ID
+  StudioPath: 
+  Min: 0
+  Max: 31
+  Default: 0
+  ID:
+    data1: 638224700
+    data2: 339898834
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1

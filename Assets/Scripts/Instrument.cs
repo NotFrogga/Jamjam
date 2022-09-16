@@ -10,13 +10,13 @@ public enum InstrumentType
 }
 
 [CreateAssetMenu(menuName = "Instruments")]
-public class Track : ScriptableObject
+public class Instrument : ScriptableObject
 {
-    [SerializeField] private int _trackId = 0;
+    [SerializeField] private int _instrumentId = 0;
     [SerializeField] private Sprite _sprite = null;
     [SerializeField] private InstrumentType _instrumentType;
 
-    public int TrackId => _trackId;
+    public int InstrumentId => _instrumentId;
     public Sprite Sprite => _sprite;
 
     public InstrumentType InstrumentType => _instrumentType;
