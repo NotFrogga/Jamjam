@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{9ec1a668-1f45-4356-9f29-5b99738895fa}">
+		<property name="name">
+			<value>Ducking_Track</value>
+		</property>
+		<relationship name="folder">
+			<destination>{5bf109e0-b46f-4c9f-bfa3-b67a4571d1b0}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{f6dc4047-fb02-4c56-b396-7789dc6a3c15}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{f6dc4047-fb02-4c56-b396-7789dc6a3c15}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
