@@ -43,7 +43,14 @@ public class AudioTrack : MonoBehaviour
     }
 
     public void SetInstrumentId(int id)
-    {
+    { 
+        if (ID == id)
+        {
+            ID = 0;
+            audioTrackInstance.setParameterByID(ID_Fmod, ID);
+            return;
+        }
+
         ID = id;
         audioTrackInstance.setParameterByID(ID_Fmod, ID);
     }

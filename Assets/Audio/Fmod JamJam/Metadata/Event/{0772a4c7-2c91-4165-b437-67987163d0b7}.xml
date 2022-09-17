@@ -169,6 +169,9 @@
 		<property name="isCutoff">
 			<value>true</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{1b615be9-2813-47a9-a6cd-771cd579be76}</destination>
+		</relationship>
 		<relationship name="event">
 			<destination>{6f063c85-eba3-4209-8627-0662b00d71ee}</destination>
 		</relationship>
@@ -180,6 +183,9 @@
 		<property name="start">
 			<value>1</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{1298236e-3e98-4fdf-a37e-02da1dfbab91}</destination>
+		</relationship>
 		<relationship name="event">
 			<destination>{f24029f4-3598-4b8a-a012-de4ea85bd58f}</destination>
 		</relationship>
@@ -191,6 +197,9 @@
 		<property name="start">
 			<value>2</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{92e52347-c74f-4ae5-a3df-272a4844148a}</destination>
+		</relationship>
 		<relationship name="event">
 			<destination>{7c409a98-f3d6-4b8f-a9fc-34c456717b91}</destination>
 		</relationship>
@@ -202,6 +211,9 @@
 		<property name="start">
 			<value>3</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{52644a62-5dcd-4f71-86d4-a490e7941b0f}</destination>
+		</relationship>
 		<relationship name="event">
 			<destination>{67f0397e-a35d-4885-a8c0-5ecf2b1a58de}</destination>
 		</relationship>
@@ -213,6 +225,9 @@
 		<property name="start">
 			<value>4</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{3474b9f2-2bb3-41d7-a6b9-4f00b6573216}</destination>
+		</relationship>
 		<relationship name="event">
 			<destination>{d75ae0d3-cc5d-4748-9f28-64ebf0938ca3}</destination>
 		</relationship>
@@ -224,6 +239,9 @@
 		<property name="start">
 			<value>5</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{8879c738-9a28-486a-b9d5-c23c2bf7a3a3}</destination>
+		</relationship>
 		<relationship name="event">
 			<destination>{8d6c7dcb-b9a7-41c7-84f1-f4033a9d4de2}</destination>
 		</relationship>
@@ -235,6 +253,9 @@
 		<property name="start">
 			<value>6</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{29f2ad1d-162d-481c-ad46-3cb2c96329ec}</destination>
+		</relationship>
 		<relationship name="event">
 			<destination>{0c1e0dbb-719a-41cc-8f7b-6184379cf140}</destination>
 		</relationship>
@@ -246,6 +267,9 @@
 		<property name="start">
 			<value>7</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{08ddba3d-b371-46aa-b950-9f915134facc}</destination>
+		</relationship>
 		<relationship name="event">
 			<destination>{70bdf079-d763-4c27-b8f0-9d6d19a2a3be}</destination>
 		</relationship>
@@ -257,6 +281,9 @@
 		<property name="start">
 			<value>8</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{e7dca278-b55d-4bc1-888c-c90334f8fa31}</destination>
+		</relationship>
 		<relationship name="event">
 			<destination>{a859e985-211e-4328-8e74-84dd8132bfbe}</destination>
 		</relationship>
@@ -268,6 +295,9 @@
 		<property name="start">
 			<value>9</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{956e095a-8e8e-4007-bfbc-a0b2c766665d}</destination>
+		</relationship>
 		<relationship name="event">
 			<destination>{d1b0bfc4-dd93-4861-88d1-8874d100421e}</destination>
 		</relationship>
@@ -279,6 +309,9 @@
 		<property name="start">
 			<value>10</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{613279f3-f226-47fa-8f5b-e9af51e50698}</destination>
+		</relationship>
 		<relationship name="event">
 			<destination>{bb4c08c8-974e-4761-8adc-838b9208dd7f}</destination>
 		</relationship>
@@ -290,6 +323,9 @@
 		<property name="start">
 			<value>11</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{e3da9d81-42ac-4d40-bae0-37a48cb5b412}</destination>
+		</relationship>
 		<relationship name="event">
 			<destination>{cdc7d867-fa89-4bfc-87b6-9e3709a9a022}</destination>
 		</relationship>
@@ -301,6 +337,9 @@
 		<property name="start">
 			<value>12</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{6f933ec7-9cb4-491a-b8d8-81f5ced646e9}</destination>
+		</relationship>
 		<relationship name="event">
 			<destination>{e2eeed80-5899-4a12-a3db-08621f4b64cd}</destination>
 		</relationship>
@@ -312,6 +351,9 @@
 		<property name="start">
 			<value>13</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{b3a9ef2c-197f-44c7-b0de-c3d77b314ffc}</destination>
+		</relationship>
 		<relationship name="event">
 			<destination>{b52c9e9e-daa4-49dc-83d0-685f8b23af90}</destination>
 		</relationship>
@@ -323,6 +365,9 @@
 		<property name="start">
 			<value>14</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{cf3dd5cc-7c04-4c44-a8ce-bae28bee1a5d}</destination>
+		</relationship>
 		<relationship name="event">
 			<destination>{f300feca-3d33-48bf-ade5-b70f0c3df2c0}</destination>
 		</relationship>
@@ -334,6 +379,9 @@
 		<property name="start">
 			<value>15</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{dae7938b-5952-4e15-a651-e2c05148d74d}</destination>
+		</relationship>
 		<relationship name="event">
 			<destination>{8341ad74-29ba-430d-bf4a-75c4a524b03a}</destination>
 		</relationship>
@@ -345,6 +393,9 @@
 		<property name="start">
 			<value>16</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{9184e0a9-69d0-4b5f-957e-bca262cb6346}</destination>
+		</relationship>
 		<relationship name="event">
 			<destination>{49532871-04ed-4c5d-8096-b5dd92f3c270}</destination>
 		</relationship>
@@ -356,6 +407,9 @@
 		<property name="start">
 			<value>17</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{d0402c54-d3f5-4ade-82ed-1889c1715a7b}</destination>
+		</relationship>
 		<relationship name="event">
 			<destination>{fc25c820-ecc3-4512-91f7-09fd26babbaa}</destination>
 		</relationship>
@@ -367,6 +421,9 @@
 		<property name="start">
 			<value>18</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{10ddfc51-fce3-40ad-8e70-d89fdca416dc}</destination>
+		</relationship>
 		<relationship name="event">
 			<destination>{06be00e0-3995-45fa-ac39-b9a87eadefe3}</destination>
 		</relationship>
@@ -378,6 +435,9 @@
 		<property name="start">
 			<value>19</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{db36750a-86f1-41e9-8ce0-cd46811e2f56}</destination>
+		</relationship>
 		<relationship name="event">
 			<destination>{a7724a5f-d90f-4730-889c-4b98957e77bd}</destination>
 		</relationship>
@@ -389,6 +449,9 @@
 		<property name="start">
 			<value>20</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{f2acc4a1-e7c0-402c-b064-cf4ff69d0b89}</destination>
+		</relationship>
 		<relationship name="event">
 			<destination>{3c4227eb-f961-4ef0-aa88-05fb6983b322}</destination>
 		</relationship>
@@ -400,6 +463,9 @@
 		<property name="start">
 			<value>21</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{53a05697-47be-4cbc-98ae-270522c51f8d}</destination>
+		</relationship>
 		<relationship name="event">
 			<destination>{9280e922-251f-425c-b33f-d8df2eb01c5c}</destination>
 		</relationship>
@@ -411,6 +477,9 @@
 		<property name="start">
 			<value>22</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{c2d92473-9aa8-4fff-a335-ed9ab88abb98}</destination>
+		</relationship>
 		<relationship name="event">
 			<destination>{9fea7097-61e8-4d83-a9bb-3d8f36a6f2b6}</destination>
 		</relationship>
@@ -422,6 +491,9 @@
 		<property name="start">
 			<value>23</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{7499671a-86b7-4cdb-8e7d-c6cf6b0e6c0f}</destination>
+		</relationship>
 		<relationship name="event">
 			<destination>{ce79d3ed-9bda-4908-85fe-38b5ebd58fc4}</destination>
 		</relationship>
@@ -433,6 +505,9 @@
 		<property name="start">
 			<value>24</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{cb4607b5-1843-4274-9e22-2610d1f8a38d}</destination>
+		</relationship>
 		<relationship name="event">
 			<destination>{4857bb80-f6bf-49b5-b061-a6130cd62619}</destination>
 		</relationship>
@@ -444,6 +519,9 @@
 		<property name="start">
 			<value>25</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{fe924ece-e42e-43df-843a-6843923429da}</destination>
+		</relationship>
 		<relationship name="event">
 			<destination>{341fa685-699a-4027-a63b-348181a402d4}</destination>
 		</relationship>
@@ -455,6 +533,9 @@
 		<property name="start">
 			<value>26</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{4bbf7c88-3bb7-4c54-8983-bdbb6d85af78}</destination>
+		</relationship>
 		<relationship name="event">
 			<destination>{3defc257-0ea3-4a99-9a07-31f79a80ccf6}</destination>
 		</relationship>
@@ -466,6 +547,9 @@
 		<property name="start">
 			<value>27</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{16da23f8-bbdd-4402-b810-830e403dc49e}</destination>
+		</relationship>
 		<relationship name="event">
 			<destination>{66f01790-072c-464d-af34-b6f44334c357}</destination>
 		</relationship>
@@ -477,6 +561,9 @@
 		<property name="start">
 			<value>28</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{4f550b4a-14bd-409e-8d6a-7135118dbbfc}</destination>
+		</relationship>
 		<relationship name="event">
 			<destination>{28430d63-277e-4a65-add4-9abb6c8d9e0d}</destination>
 		</relationship>
@@ -488,6 +575,9 @@
 		<property name="start">
 			<value>29</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{fa4e759f-f981-42c3-be8b-5157bfd415d0}</destination>
+		</relationship>
 		<relationship name="event">
 			<destination>{4c12e457-2e8e-45d2-b5c0-b6e4ba94ab9a}</destination>
 		</relationship>
@@ -499,6 +589,9 @@
 		<property name="start">
 			<value>30</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{826d21be-8ce1-4cd7-a053-a796988d1686}</destination>
+		</relationship>
 		<relationship name="event">
 			<destination>{0662532f-d81b-472a-9a8b-fc246d2ae321}</destination>
 		</relationship>
@@ -510,6 +603,9 @@
 		<property name="start">
 			<value>31</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{4ee43f40-8dca-49af-b310-5d373f1598a1}</destination>
+		</relationship>
 		<relationship name="event">
 			<destination>{0d29388b-308c-4b8f-b337-fc5f5c4c6159}</destination>
 		</relationship>
@@ -535,6 +631,742 @@
 	</object>
 	<object class="MixerBusPanner" id="{88cfed28-b4b9-408b-95a1-7b3d1f06be0f}" />
 	<object class="MixerBusFader" id="{d77dc652-0dc0-444b-9104-e8c2e0a00020}" />
+	<object class="ADSRModulator" id="{1b615be9-2813-47a9-a6cd-771cd579be76}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>300</value>
+		</property>
+		<property name="holdTime">
+			<value>0</value>
+		</property>
+		<property name="decayTime">
+			<value>0</value>
+		</property>
+		<property name="releaseTime">
+			<value>460</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{1298236e-3e98-4fdf-a37e-02da1dfbab91}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>300</value>
+		</property>
+		<property name="holdTime">
+			<value>0</value>
+		</property>
+		<property name="decayTime">
+			<value>0</value>
+		</property>
+		<property name="releaseTime">
+			<value>460</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{92e52347-c74f-4ae5-a3df-272a4844148a}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>300</value>
+		</property>
+		<property name="holdTime">
+			<value>0</value>
+		</property>
+		<property name="decayTime">
+			<value>0</value>
+		</property>
+		<property name="releaseTime">
+			<value>460</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{52644a62-5dcd-4f71-86d4-a490e7941b0f}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>300</value>
+		</property>
+		<property name="holdTime">
+			<value>0</value>
+		</property>
+		<property name="decayTime">
+			<value>0</value>
+		</property>
+		<property name="releaseTime">
+			<value>460</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{3474b9f2-2bb3-41d7-a6b9-4f00b6573216}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>300</value>
+		</property>
+		<property name="holdTime">
+			<value>0</value>
+		</property>
+		<property name="decayTime">
+			<value>0</value>
+		</property>
+		<property name="releaseTime">
+			<value>460</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{8879c738-9a28-486a-b9d5-c23c2bf7a3a3}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>300</value>
+		</property>
+		<property name="holdTime">
+			<value>0</value>
+		</property>
+		<property name="decayTime">
+			<value>0</value>
+		</property>
+		<property name="releaseTime">
+			<value>460</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{29f2ad1d-162d-481c-ad46-3cb2c96329ec}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>300</value>
+		</property>
+		<property name="holdTime">
+			<value>0</value>
+		</property>
+		<property name="decayTime">
+			<value>0</value>
+		</property>
+		<property name="releaseTime">
+			<value>460</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{08ddba3d-b371-46aa-b950-9f915134facc}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>300</value>
+		</property>
+		<property name="holdTime">
+			<value>0</value>
+		</property>
+		<property name="decayTime">
+			<value>0</value>
+		</property>
+		<property name="releaseTime">
+			<value>460</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{e7dca278-b55d-4bc1-888c-c90334f8fa31}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>300</value>
+		</property>
+		<property name="holdTime">
+			<value>0</value>
+		</property>
+		<property name="decayTime">
+			<value>0</value>
+		</property>
+		<property name="releaseTime">
+			<value>460</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{956e095a-8e8e-4007-bfbc-a0b2c766665d}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>300</value>
+		</property>
+		<property name="holdTime">
+			<value>0</value>
+		</property>
+		<property name="decayTime">
+			<value>0</value>
+		</property>
+		<property name="releaseTime">
+			<value>460</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{613279f3-f226-47fa-8f5b-e9af51e50698}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>300</value>
+		</property>
+		<property name="holdTime">
+			<value>0</value>
+		</property>
+		<property name="decayTime">
+			<value>0</value>
+		</property>
+		<property name="releaseTime">
+			<value>460</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{e3da9d81-42ac-4d40-bae0-37a48cb5b412}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>300</value>
+		</property>
+		<property name="holdTime">
+			<value>0</value>
+		</property>
+		<property name="decayTime">
+			<value>0</value>
+		</property>
+		<property name="releaseTime">
+			<value>460</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{6f933ec7-9cb4-491a-b8d8-81f5ced646e9}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>300</value>
+		</property>
+		<property name="holdTime">
+			<value>0</value>
+		</property>
+		<property name="decayTime">
+			<value>0</value>
+		</property>
+		<property name="releaseTime">
+			<value>460</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{b3a9ef2c-197f-44c7-b0de-c3d77b314ffc}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>300</value>
+		</property>
+		<property name="holdTime">
+			<value>0</value>
+		</property>
+		<property name="decayTime">
+			<value>0</value>
+		</property>
+		<property name="releaseTime">
+			<value>460</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{cf3dd5cc-7c04-4c44-a8ce-bae28bee1a5d}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>300</value>
+		</property>
+		<property name="holdTime">
+			<value>0</value>
+		</property>
+		<property name="decayTime">
+			<value>0</value>
+		</property>
+		<property name="releaseTime">
+			<value>460</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{dae7938b-5952-4e15-a651-e2c05148d74d}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>300</value>
+		</property>
+		<property name="holdTime">
+			<value>0</value>
+		</property>
+		<property name="decayTime">
+			<value>0</value>
+		</property>
+		<property name="releaseTime">
+			<value>460</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{9184e0a9-69d0-4b5f-957e-bca262cb6346}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>300</value>
+		</property>
+		<property name="holdTime">
+			<value>0</value>
+		</property>
+		<property name="decayTime">
+			<value>0</value>
+		</property>
+		<property name="releaseTime">
+			<value>460</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{d0402c54-d3f5-4ade-82ed-1889c1715a7b}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>300</value>
+		</property>
+		<property name="holdTime">
+			<value>0</value>
+		</property>
+		<property name="decayTime">
+			<value>0</value>
+		</property>
+		<property name="releaseTime">
+			<value>460</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{10ddfc51-fce3-40ad-8e70-d89fdca416dc}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>300</value>
+		</property>
+		<property name="holdTime">
+			<value>0</value>
+		</property>
+		<property name="decayTime">
+			<value>0</value>
+		</property>
+		<property name="releaseTime">
+			<value>460</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{db36750a-86f1-41e9-8ce0-cd46811e2f56}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>300</value>
+		</property>
+		<property name="holdTime">
+			<value>0</value>
+		</property>
+		<property name="decayTime">
+			<value>0</value>
+		</property>
+		<property name="releaseTime">
+			<value>460</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{f2acc4a1-e7c0-402c-b064-cf4ff69d0b89}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>300</value>
+		</property>
+		<property name="holdTime">
+			<value>0</value>
+		</property>
+		<property name="decayTime">
+			<value>0</value>
+		</property>
+		<property name="releaseTime">
+			<value>460</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{53a05697-47be-4cbc-98ae-270522c51f8d}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>300</value>
+		</property>
+		<property name="holdTime">
+			<value>0</value>
+		</property>
+		<property name="decayTime">
+			<value>0</value>
+		</property>
+		<property name="releaseTime">
+			<value>460</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{c2d92473-9aa8-4fff-a335-ed9ab88abb98}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>300</value>
+		</property>
+		<property name="holdTime">
+			<value>0</value>
+		</property>
+		<property name="decayTime">
+			<value>0</value>
+		</property>
+		<property name="releaseTime">
+			<value>460</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{7499671a-86b7-4cdb-8e7d-c6cf6b0e6c0f}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>300</value>
+		</property>
+		<property name="holdTime">
+			<value>0</value>
+		</property>
+		<property name="decayTime">
+			<value>0</value>
+		</property>
+		<property name="releaseTime">
+			<value>460</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{cb4607b5-1843-4274-9e22-2610d1f8a38d}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>300</value>
+		</property>
+		<property name="holdTime">
+			<value>0</value>
+		</property>
+		<property name="decayTime">
+			<value>0</value>
+		</property>
+		<property name="releaseTime">
+			<value>460</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{fe924ece-e42e-43df-843a-6843923429da}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>300</value>
+		</property>
+		<property name="holdTime">
+			<value>0</value>
+		</property>
+		<property name="decayTime">
+			<value>0</value>
+		</property>
+		<property name="releaseTime">
+			<value>460</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{4bbf7c88-3bb7-4c54-8983-bdbb6d85af78}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>300</value>
+		</property>
+		<property name="holdTime">
+			<value>0</value>
+		</property>
+		<property name="decayTime">
+			<value>0</value>
+		</property>
+		<property name="releaseTime">
+			<value>460</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{16da23f8-bbdd-4402-b810-830e403dc49e}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>300</value>
+		</property>
+		<property name="holdTime">
+			<value>0</value>
+		</property>
+		<property name="decayTime">
+			<value>0</value>
+		</property>
+		<property name="releaseTime">
+			<value>460</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{4f550b4a-14bd-409e-8d6a-7135118dbbfc}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>300</value>
+		</property>
+		<property name="holdTime">
+			<value>0</value>
+		</property>
+		<property name="decayTime">
+			<value>0</value>
+		</property>
+		<property name="releaseTime">
+			<value>460</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{fa4e759f-f981-42c3-be8b-5157bfd415d0}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>300</value>
+		</property>
+		<property name="holdTime">
+			<value>0</value>
+		</property>
+		<property name="decayTime">
+			<value>0</value>
+		</property>
+		<property name="releaseTime">
+			<value>460</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{826d21be-8ce1-4cd7-a053-a796988d1686}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>300</value>
+		</property>
+		<property name="holdTime">
+			<value>0</value>
+		</property>
+		<property name="decayTime">
+			<value>0</value>
+		</property>
+		<property name="releaseTime">
+			<value>460</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{4ee43f40-8dca-49af-b310-5d373f1598a1}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>300</value>
+		</property>
+		<property name="holdTime">
+			<value>0</value>
+		</property>
+		<property name="decayTime">
+			<value>0</value>
+		</property>
+		<property name="releaseTime">
+			<value>460</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{69a27800-75a1-4c3a-baac-6927615a5e7f}">
 		<relationship name="effects">
 			<destination>{97903966-58c5-4f33-ae94-6fd3347bcbed}</destination>
