@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a44c72ae7ded73f439a6c7c3bd9a0be5, type: 3}
   m_Name: TranceLSD_Bass
   m_EditorClassIdentifier: 
-  _instrumentId: 22
-  _sprite: {fileID: 0}
+  _instrumentId: 23
+  _sprite: {fileID: 21300000, guid: aaabb766363a27e44adf57f2dfdfdac5, type: 3}
   _instrumentType: 2
   _instrumentFamily: 2
