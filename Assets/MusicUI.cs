@@ -68,4 +68,9 @@ public class MusicUI : MonoBehaviour
     {
         _gameManager.SetInstrument(instrument);
     }
+
+    public void unlockInstrument(int pallier)
+    {
+        
+    }
 }
