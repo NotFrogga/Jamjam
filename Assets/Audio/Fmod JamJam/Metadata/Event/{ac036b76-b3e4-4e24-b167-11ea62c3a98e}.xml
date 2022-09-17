@@ -5,7 +5,7 @@
 			<value>Preview Track</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{f5cc8274-24f6-4307-9437-4fbc145b3cba}</destination>

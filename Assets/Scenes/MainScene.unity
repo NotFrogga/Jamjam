@@ -408,6 +408,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 7c0676949ea41ab44995b45b4f0369df, type: 2}
     - target: {fileID: -346399119252998334, guid: 8a7bae312515f534bba6afa62b54c2b0, type: 3}
+      propertyPath: _unlocked
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -346399119252998334, guid: 8a7bae312515f534bba6afa62b54c2b0, type: 3}
       propertyPath: _instrument
       value: 
       objectReference: {fileID: 11400000, guid: 52c9deb7486c3294a962c936a39e9e4e, type: 2}
@@ -893,6 +897,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 7c0676949ea41ab44995b45b4f0369df, type: 2}
     - target: {fileID: -346399119252998334, guid: 8a7bae312515f534bba6afa62b54c2b0, type: 3}
+      propertyPath: _unlocked
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -346399119252998334, guid: 8a7bae312515f534bba6afa62b54c2b0, type: 3}
       propertyPath: _instrument
       value: 
       objectReference: {fileID: 11400000, guid: 52c9deb7486c3294a962c936a39e9e4e, type: 2}
@@ -1001,6 +1009,10 @@ PrefabInstance:
       propertyPath: _track
       value: 
       objectReference: {fileID: 11400000, guid: 7c0676949ea41ab44995b45b4f0369df, type: 2}
+    - target: {fileID: -346399119252998334, guid: 8a7bae312515f534bba6afa62b54c2b0, type: 3}
+      propertyPath: _unlocked
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -346399119252998334, guid: 8a7bae312515f534bba6afa62b54c2b0, type: 3}
       propertyPath: _instrument
       value: 
@@ -1327,7 +1339,9 @@ MonoBehaviour:
   bofBonus: 1
   okBonus: 3
   genialBonus: 10
-  emptyInstrument: {fileID: 11400000, guid: 1cddfe4a4f05493479ca0ba900675a5e, type: 2}
+  emptyMelody: {fileID: 0}
+  emptyBass: {fileID: 0}
+  emptyDrums: {fileID: 0}
 --- !u!4 &484413366
 Transform:
   m_ObjectHideFlags: 0
@@ -2094,6 +2108,10 @@ PrefabInstance:
       propertyPath: _track
       value: 
       objectReference: {fileID: 11400000, guid: 7c0676949ea41ab44995b45b4f0369df, type: 2}
+    - target: {fileID: -346399119252998334, guid: 8a7bae312515f534bba6afa62b54c2b0, type: 3}
+      propertyPath: _unlocked
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -346399119252998334, guid: 8a7bae312515f534bba6afa62b54c2b0, type: 3}
       propertyPath: _instrument
       value: 

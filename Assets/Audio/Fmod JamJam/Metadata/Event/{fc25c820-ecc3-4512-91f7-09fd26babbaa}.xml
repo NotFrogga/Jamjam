@@ -5,7 +5,7 @@
 			<value>R17</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{735af800-5035-4fed-8b67-7b9a49363c3a}</destination>
@@ -88,12 +88,21 @@
 	<object class="MixerBusPanner" id="{8fa643ca-0975-4a91-8b6e-fba5241608ff}" />
 	<object class="MixerBusEffectChain" id="{227344de-7a22-46fa-92cc-6c4dd381c023}">
 		<relationship name="effects">
+			<destination>{57a266ce-5285-4192-beae-166a7f705067}</destination>
 			<destination>{decb0f11-0451-4279-8b0a-7d2d011c861e}</destination>
 			<destination>{6ba7c550-c6aa-4245-846b-ade03d712377}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{f04a6b89-0682-468a-852f-9d6ed555a9bc}" />
 	<object class="MixerBusFader" id="{29f63344-0e75-45bc-92d8-7d2ba450ef1d}" />
+	<object class="ProxyEffect" id="{57a266ce-5285-4192-beae-166a7f705067}">
+		<property name="inputFormat">
+			<value>0</value>
+		</property>
+		<relationship name="preset">
+			<destination>{5a8a7349-e90b-4ddf-b354-ddec185ef006}</destination>
+		</relationship>
+	</object>
 	<object class="TransceiverEffect" id="{decb0f11-0451-4279-8b0a-7d2d011c861e}">
 		<property name="channel">
 			<value>17</value>
