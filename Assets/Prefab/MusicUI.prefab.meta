@@ -1,11 +1,6 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/Audio/Fmod JamJam/Metadata/AudioFile/{00897743-d658-44b4-9c8b-c62ba4ad61a7}.xml.meta
-guid: 5fc2b45c0e2dd244c9a4449fdeb9b89c
-TextScriptImporter:
-========
-guid: b681f526fc9d7b240ad3a35fac72dcce
+guid: 0a83b042012c7744a800ecb342cda0c2
 PrefabImporter:
->>>>>>>> 4f17729aa949caa69aa86e34e0752e830ea1720b:Assets/Prefab/MusicUI.prefab.meta
   externalObjects: {}
   userData: 
   assetBundleName: 

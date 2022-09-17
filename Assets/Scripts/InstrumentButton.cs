@@ -10,6 +10,8 @@ public class InstrumentButton : MonoBehaviour
     [SerializeField] public GameObject _selectedGO;
     
     [SerializeField] public bool _unlocked = true;
+
+    [SerializeField] public Image _instrumentImage;
     MusicUI _musicUI;
 
     private void ButtonBehavior()
@@ -49,7 +51,7 @@ public class InstrumentButton : MonoBehaviour
     {
         _musicUI = FindObjectOfType<MusicUI>();
         _button.onClick.AddListener(ButtonBehavior);
-        
+        _button.GetComponent<Image>().sprite = _instrument._sprite;
         instrumentUnlockedCheck();
     }
 

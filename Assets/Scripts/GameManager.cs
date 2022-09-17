@@ -70,7 +70,7 @@ public class GameManager: MonoBehaviour
             default:
                 break;
         }
-        RefreshDeltaScore();
+        //RefreshDeltaScore();
     }
 
     private void RefreshDeltaScore()

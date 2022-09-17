@@ -18,7 +18,7 @@ public enum InstrumentFamily
 public class Instrument : ScriptableObject
 {
     [SerializeField] private int _instrumentId = 0;
-    [SerializeField] private Sprite _sprite = null;
+    [SerializeField] public Sprite _sprite = null;
     [SerializeField] private InstrumentType _instrumentType;
     [SerializeField] private InstrumentFamily _instrumentFamily;
 
