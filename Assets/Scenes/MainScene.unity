@@ -219,6 +219,7 @@ MonoBehaviour:
       Data4: -1211079823
     Path: event:/Track
   ID: 0
+  old_ID: 0
 --- !u!1 &484413364
 GameObject:
   m_ObjectHideFlags: 0
@@ -474,6 +475,7 @@ MonoBehaviour:
       Data4: -1211079823
     Path: event:/Track
   ID: 0
+  old_ID: 0
 --- !u!1 &1658464963
 GameObject:
   m_ObjectHideFlags: 0
@@ -525,6 +527,7 @@ MonoBehaviour:
       Data4: -1211079823
     Path: event:/Track
   ID: 0
+  old_ID: 0
 --- !u!1 &1716833513
 GameObject:
   m_ObjectHideFlags: 0
@@ -643,6 +646,46 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1229992288182049971, guid: 0a83b042012c7744a800ecb342cda0c2, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1725768085234742339, guid: 0a83b042012c7744a800ecb342cda0c2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 476887576}
+    - target: {fileID: 1725768085234742339, guid: 0a83b042012c7744a800ecb342cda0c2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MuteUnMute
+      objectReference: {fileID: 0}
+    - target: {fileID: 1998775285738497387, guid: 0a83b042012c7744a800ecb342cda0c2, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1998775285738497387, guid: 0a83b042012c7744a800ecb342cda0c2, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1998775285738497387, guid: 0a83b042012c7744a800ecb342cda0c2, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1998775285738497387, guid: 0a83b042012c7744a800ecb342cda0c2, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054520191242974586, guid: 0a83b042012c7744a800ecb342cda0c2, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054520191242974586, guid: 0a83b042012c7744a800ecb342cda0c2, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054520191242974586, guid: 0a83b042012c7744a800ecb342cda0c2, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054520191242974586, guid: 0a83b042012c7744a800ecb342cda0c2, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
@@ -1278,6 +1321,14 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 0557e032df4d25744a64c77aba34ed28, type: 2}
+    - target: {fileID: 6384934607081940300, guid: 0a83b042012c7744a800ecb342cda0c2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1658464965}
+    - target: {fileID: 6384934607081940300, guid: 0a83b042012c7744a800ecb342cda0c2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MuteUnMute
+      objectReference: {fileID: 0}
     - target: {fileID: 6836197188184516859, guid: 0a83b042012c7744a800ecb342cda0c2, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1353,6 +1404,22 @@ PrefabInstance:
     - target: {fileID: 7940074535241917717, guid: 0a83b042012c7744a800ecb342cda0c2, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7962231830137979732, guid: 0a83b042012c7744a800ecb342cda0c2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1499358992}
+    - target: {fileID: 7962231830137979732, guid: 0a83b042012c7744a800ecb342cda0c2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MuteUnMute
+      objectReference: {fileID: 0}
+    - target: {fileID: 7962231830137979732, guid: 0a83b042012c7744a800ecb342cda0c2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: AudioTrack, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7962231830137979732, guid: 0a83b042012c7744a800ecb342cda0c2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7968895030665331310, guid: 0a83b042012c7744a800ecb342cda0c2, type: 3}
       propertyPath: _audioTrack
