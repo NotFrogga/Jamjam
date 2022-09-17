@@ -16,9 +16,13 @@ public class InstrumentButton : MonoBehaviour
 
     private void ButtonBehavior()
     {
-        _selectedGO.SetActive(true);
+        muteUnmute(true);
         _musicUI.PlayInstrument(_instrument);
         SetActiveInstrumentButton();
+    }
+
+    public void muteUnmute(bool active){
+        _selectedGO.SetActive(active);
     }
 
     private void SetActiveInstrumentButton()

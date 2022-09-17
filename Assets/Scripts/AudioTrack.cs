@@ -8,14 +8,16 @@ public class AudioTrack : MonoBehaviour
     public FMODUnity.EventReference audioTrackEvent;
     public FMOD.Studio.EventInstance audioTrackInstance;
     public FMOD.Studio.PARAMETER_ID ID_Fmod;
-    public int ID;
+    public int ID, old_ID;
 
 
     // Start is called before the first frame update
     void Start()
     {
+        old_ID = 0;
         Play();
     }
+
 
     // Update is called once per frame
     void Update()
@@ -38,6 +40,20 @@ public class AudioTrack : MonoBehaviour
     public void Stop()
     {
         audioTrackInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+    }
+
+    
+    public void MuteUnMute()
+    {
+        Debug.Log("TRUSDIGHSKG");
+        if(ID != 0){
+            old_ID = ID;
+            SetInstrumentId(ID);
+        }
+        else{
+            SetInstrumentId(old_ID);
+            old_ID = 0;
+        }
     }
 
     public void SetInstrumentId(int id)
