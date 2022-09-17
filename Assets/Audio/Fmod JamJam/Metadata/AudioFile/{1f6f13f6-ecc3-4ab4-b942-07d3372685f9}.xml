@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{1f6f13f6-ecc3-4ab4-b942-07d3372685f9}">
+		<property name="assetPath">
+			<value>Palo_Melody.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>8.7272708333333338</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{27a5b275-23b5-4908-ba5f-a45554984d80}</destination>
+		</relationship>
+	</object>
+</objects>
