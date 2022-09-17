@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: TranceLSD_Drums
   m_EditorClassIdentifier: 
   _instrumentId: 22
-  _sprite: {fileID: 0}
+  _sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
   _instrumentType: 1
   _instrumentFamily: 2
