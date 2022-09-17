@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EffectPreset" id="{5a8a7349-e90b-4ddf-b354-ddec185ef006}">
+		<property name="name">
+			<value>Panner</value>
+		</property>
+		<relationship name="folder">
+			<destination>{6cbe2ea6-406e-40df-9289-8d259509e379}</destination>
+		</relationship>
+		<relationship name="effect">
+			<destination>{1c957414-b8ae-4792-99f4-43d67b441500}</destination>
+		</relationship>
+	</object>
+	<object class="PannerEffect" id="{1c957414-b8ae-4792-99f4-43d67b441500}">
+		<property name="overridingOutputFormat">
+			<value>1</value>
+		</property>
+	</object>
+</objects>

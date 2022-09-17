@@ -847,6 +847,7 @@
 	<object class="MixerBusPanner" id="{14e72231-7a21-410a-a366-134b4be8ce25}" />
 	<object class="MixerBusEffectChain" id="{e3324917-02fc-41b2-98d9-1e6c616df72a}">
 		<relationship name="effects">
+			<destination>{fdf4c45d-530a-40a1-8ae0-fbec35c68686}</destination>
 			<destination>{75d3a7bb-532b-48a9-bac2-533c7c6a0b1c}</destination>
 			<destination>{fdc978f0-4d37-42e9-b30b-02b92d140ed8}</destination>
 		</relationship>
@@ -854,6 +855,7 @@
 	<object class="MixerBusPanner" id="{3cc15249-0f74-4380-9c38-7c227c199d85}" />
 	<object class="MixerBusEffectChain" id="{c60bf390-c59f-470e-b9c1-5eb374ee26e4}">
 		<relationship name="effects">
+			<destination>{935cb48f-4c08-4a9f-baf6-de981f9c95c9}</destination>
 			<destination>{f7219f7c-3acf-4764-a0ce-947b9d2b097c}</destination>
 			<destination>{734ebf30-cf6b-4807-bf3d-4212b9c49a0f}</destination>
 		</relationship>
@@ -861,6 +863,7 @@
 	<object class="MixerBusPanner" id="{c19351cc-b2bf-415c-b5ec-71a2e8093cf8}" />
 	<object class="MixerBusEffectChain" id="{2924779b-17f2-45b9-9510-dd7b80486d8f}">
 		<relationship name="effects">
+			<destination>{5eb4012a-a4a9-4916-a567-dafb089f0d52}</destination>
 			<destination>{668e1019-5475-403c-a8a3-a972c4a0d0e5}</destination>
 			<destination>{e73548b9-a651-47e3-be77-8dd3e4aa5b7e}</destination>
 		</relationship>
@@ -868,6 +871,7 @@
 	<object class="MixerBusPanner" id="{46fc6259-de53-4681-8fb5-b031c88a766d}" />
 	<object class="MixerBusEffectChain" id="{9c5aee66-3fa5-4130-b417-066beb854db3}">
 		<relationship name="effects">
+			<destination>{73b0eba8-7391-49b9-9cf4-25b54be175d2}</destination>
 			<destination>{51493361-6efc-4264-9fa1-a2dd5063d518}</destination>
 			<destination>{4592c80c-40f3-44f9-a23f-25636f4bd85b}</destination>
 		</relationship>
@@ -875,6 +879,7 @@
 	<object class="MixerBusPanner" id="{2cad6ef7-c65f-471b-bc32-530d01257c9b}" />
 	<object class="MixerBusEffectChain" id="{d85306eb-4e39-47fe-a1f2-6302b7ca651a}">
 		<relationship name="effects">
+			<destination>{0d7aae62-fba4-49da-9e01-080c2e810358}</destination>
 			<destination>{93db1428-b5df-43fd-a10b-7fed01412c0f}</destination>
 			<destination>{4823a31b-3cb7-4e95-8a49-bb8282ea07dd}</destination>
 		</relationship>
@@ -882,6 +887,7 @@
 	<object class="MixerBusPanner" id="{13dcbe41-bd8a-4fba-b9b1-3daa2e079e52}" />
 	<object class="MixerBusEffectChain" id="{854c97b3-b3e7-4017-a5e0-a9eaaf1b563c}">
 		<relationship name="effects">
+			<destination>{4738fc2a-a313-44d5-a014-eb2690988838}</destination>
 			<destination>{09bb6b35-18fd-42a8-908c-222c10110159}</destination>
 			<destination>{4500b66f-c76d-4bfc-834e-6c56c7d57580}</destination>
 		</relationship>
@@ -1072,6 +1078,11 @@
 			<value>1</value>
 		</property>
 	</object>
+	<object class="PannerEffect" id="{fdf4c45d-530a-40a1-8ae0-fbec35c68686}">
+		<property name="overridingOutputFormat">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{75d3a7bb-532b-48a9-bac2-533c7c6a0b1c}" />
 	<object class="TransceiverEffect" id="{fdc978f0-4d37-42e9-b30b-02b92d140ed8}">
 		<property name="transmitMode">
@@ -1081,6 +1092,11 @@
 			<value>1</value>
 		</property>
 		<property name="speakerMode">
+			<value>1</value>
+		</property>
+	</object>
+	<object class="PannerEffect" id="{935cb48f-4c08-4a9f-baf6-de981f9c95c9}">
+		<property name="overridingOutputFormat">
 			<value>1</value>
 		</property>
 	</object>
@@ -1096,6 +1112,11 @@
 			<value>1</value>
 		</property>
 	</object>
+	<object class="PannerEffect" id="{5eb4012a-a4a9-4916-a567-dafb089f0d52}">
+		<property name="overridingOutputFormat">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{668e1019-5475-403c-a8a3-a972c4a0d0e5}" />
 	<object class="TransceiverEffect" id="{e73548b9-a651-47e3-be77-8dd3e4aa5b7e}">
 		<property name="transmitMode">
@@ -1105,6 +1126,11 @@
 			<value>3</value>
 		</property>
 		<property name="speakerMode">
+			<value>1</value>
+		</property>
+	</object>
+	<object class="PannerEffect" id="{73b0eba8-7391-49b9-9cf4-25b54be175d2}">
+		<property name="overridingOutputFormat">
 			<value>1</value>
 		</property>
 	</object>
@@ -1120,6 +1146,11 @@
 			<value>1</value>
 		</property>
 	</object>
+	<object class="PannerEffect" id="{0d7aae62-fba4-49da-9e01-080c2e810358}">
+		<property name="overridingOutputFormat">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{93db1428-b5df-43fd-a10b-7fed01412c0f}" />
 	<object class="TransceiverEffect" id="{4823a31b-3cb7-4e95-8a49-bb8282ea07dd}">
 		<property name="transmitMode">
@@ -1129,6 +1160,11 @@
 			<value>5</value>
 		</property>
 		<property name="speakerMode">
+			<value>1</value>
+		</property>
+	</object>
+	<object class="PannerEffect" id="{4738fc2a-a313-44d5-a014-eb2690988838}">
+		<property name="overridingOutputFormat">
 			<value>1</value>
 		</property>
 	</object>
