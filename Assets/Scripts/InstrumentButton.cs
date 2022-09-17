@@ -8,9 +8,9 @@ public class InstrumentButton : MonoBehaviour
     [SerializeField] private Instrument _instrument;
     [SerializeField] private Button _button;
     [SerializeField] public GameObject _selectedGO;
-
+    
+    [SerializeField] public bool _unlocked = false;
     MusicUI _musicUI;
-
 
     private void ButtonBehavior()
     {
@@ -35,9 +35,27 @@ public class InstrumentButton : MonoBehaviour
         }
     }
 
+    private void instrumentUnlockedCheck()
+    {
+        this._button.GetComponent<Button>().interactable = _unlocked;
+        if (_unlocked)
+        {
+        
+        }
+        
+    }
+
     private void Start()
     {
         _musicUI = FindObjectOfType<MusicUI>();
         _button.onClick.AddListener(ButtonBehavior);
+        
+        instrumentUnlockedCheck();
     }
+
+    private void Update(){
+
+        instrumentUnlockedCheck();
+    }
+
 }
