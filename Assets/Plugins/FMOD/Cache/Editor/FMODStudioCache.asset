@@ -94,7 +94,7 @@ MonoBehaviour:
   Path: Assets/Audio/Fmod JamJam/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637990276280000000
+  lastModified: 637990432803398739
   FileSizes:
   - Name: Desktop
     Value: 1130
@@ -224,10 +224,10 @@ MonoBehaviour:
   Path: Assets/Audio/Fmod JamJam/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637990276280000000
+  lastModified: 637990432803368814
   FileSizes:
   - Name: Desktop
-    Value: 4262720
+    Value: 4252800
   Exists: 1
 --- !u!114 &-1440956700851518517
 MonoBehaviour:
@@ -303,7 +303,7 @@ MonoBehaviour:
   - {fileID: -2659409842262075562}
   StringsBanks:
   - {fileID: -5499943811380474884}
-  cacheTime: 637990276280000000
+  cacheTime: 637990432803398739
   cacheVersion: 131591
 --- !u!114 &70840372524868789
 MonoBehaviour:
