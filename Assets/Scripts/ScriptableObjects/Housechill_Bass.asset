@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Housechill_Bass
   m_EditorClassIdentifier: 
   _instrumentId: 2
-  _sprite: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: 0e412e74db0c81e48a549af411c65232, type: 3}
   _instrumentType: 2
+  _instrumentFamily: 0
