@@ -54,7 +54,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 100
+  Length: 8727
 --- !u!114 &-954191676154592442
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -105,7 +105,7 @@ MonoBehaviour:
   - {fileID: 2441907396592552475}
   StringsBanks:
   - {fileID: 2362492104225098156}
-  cacheTime: 637990151344216857
+  cacheTime: 637990232169684756
   cacheVersion: 131591
 --- !u!114 &406146019706214986
 MonoBehaviour:
@@ -170,10 +170,10 @@ MonoBehaviour:
   Path: Assets/Audio/Fmod JamJam/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637990151344216857
+  lastModified: 637990232169684756
   FileSizes:
   - Name: Desktop
-    Value: 617696
+    Value: 607712
   Exists: 1
 --- !u!114 &3647961034378484502
 MonoBehaviour:

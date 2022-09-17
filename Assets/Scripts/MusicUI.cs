@@ -13,6 +13,8 @@ public class MusicUI : MonoBehaviour
     public InstrumentButton _activeDrumsButton;
     public InstrumentButton _activeBassButton;
 
+    [SerializeField] private GameManager _gameManager;
+
     public void PlayInstrument(Instrument instrument)
     {
         switch (instrument.InstrumentType)
@@ -20,22 +22,25 @@ public class MusicUI : MonoBehaviour
             case InstrumentType.MELODY:
                 if (_activeMelodyButton != null)
                     _activeMelodyButton._selectedGO.SetActive(false);
-                _melodyTrack.SetInstrumentId(instrument.InstrumentId);
+                //_melodyTrack.SetInstrumentId(instrument.InstrumentId);
                 break;
             case InstrumentType.DRUMS:
                 if (_activeDrumsButton != null)
                     _activeDrumsButton._selectedGO.SetActive(false);
-                _drumsTrack.SetInstrumentId(instrument.InstrumentId);
+                //_drumsTrack.SetInstrumentId(instrument.InstrumentId);
                 break;
             case InstrumentType.BASS:
                 if (_activeBassButton != null)
                     _activeBassButton._selectedGO.SetActive(false);
-                _bassTrack.SetInstrumentId(instrument.InstrumentId);
-                break;
-            case InstrumentType.INSTRUMENTNUMBER:
+                //_bassTrack.SetInstrumentId(instrument.InstrumentId);
                 break;
             default:
                 break;
         }
+        _gameManager.SetInstrument(instrument);
+    }
+    public void unlockInstrument(int pallier)
+    {
+
     }
 }
