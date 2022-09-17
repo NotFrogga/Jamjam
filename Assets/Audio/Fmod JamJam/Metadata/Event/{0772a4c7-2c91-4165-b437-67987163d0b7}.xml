@@ -5,7 +5,7 @@
 			<value>Track</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{f5cc8274-24f6-4307-9437-4fbc145b3cba}</destination>
@@ -1369,12 +1369,10 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{69a27800-75a1-4c3a-baac-6927615a5e7f}">
 		<relationship name="effects">
-			<destination>{97903966-58c5-4f33-ae94-6fd3347bcbed}</destination>
 			<destination>{cdcb9334-61cf-47ed-aeb6-4bce2dafaed5}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{85730e11-e780-4845-a750-15e0ef36fa5f}" />
 	<object class="MixerBusFader" id="{e038fcce-bb82-4529-a770-2876bafd88b1}" />
-	<object class="TransceiverEffect" id="{97903966-58c5-4f33-ae94-6fd3347bcbed}" />
 	<object class="MixerBusFader" id="{cdcb9334-61cf-47ed-aeb6-4bce2dafaed5}" />
 </objects>
