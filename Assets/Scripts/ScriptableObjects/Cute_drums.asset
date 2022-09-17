@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a44c72ae7ded73f439a6c7c3bd9a0be5, type: 3}
   m_Name: Cute_drums
   m_EditorClassIdentifier: 
-  _instrumentId: 11
-  _sprite: {fileID: 21300000, guid: eb621f840b2e66d43b25ea3aa3d3bed3, type: 3}
+  _instrumentId: 10
+  _sprite: {fileID: 21300000, guid: b3c8c17ed06acd94b9b8c37e59e3870d, type: 3}
   _instrumentType: 1
   _instrumentFamily: 1
