@@ -9,7 +9,7 @@ public class InstrumentButton : MonoBehaviour
     [SerializeField] private Button _button;
     [SerializeField] public GameObject _selectedGO;
     
-    [SerializeField] public bool _unlocked = false;
+    [SerializeField] public bool _unlocked = true;
     MusicUI _musicUI;
 
     private void ButtonBehavior()

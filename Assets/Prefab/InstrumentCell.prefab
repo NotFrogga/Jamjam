@@ -169,6 +169,7 @@ MonoBehaviour:
   _instrument: {fileID: 0}
   _button: {fileID: 5540591127762277550}
   _selectedGO: {fileID: 2377401017079870188}
+  _unlocked: 1
 --- !u!114 &7051008436839382625
 MonoBehaviour:
   m_ObjectHideFlags: 0
