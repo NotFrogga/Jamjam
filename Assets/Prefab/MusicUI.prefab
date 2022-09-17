@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5233693790716432617}
   - component: {fileID: 2820418331817762404}
   - component: {fileID: 6277616997922608180}
+  - component: {fileID: 2123495194548183609}
   m_Layer: 5
   m_Name: Frog (1)
   m_TagString: Untagged
@@ -86,7 +87,7 @@ Animator:
   m_GameObject: {fileID: 3985871891792697504}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0557e032df4d25744a64c77aba34ed28, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -95,6 +96,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2123495194548183609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3985871891792697504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de964f4b07c584442bf3d34fcf513bfa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioTrack1: {fileID: 0}
+  _audioTrack2: {fileID: 0}
+  _audioTrack3: {fileID: 0}
 --- !u!1 &4466001591202733934
 GameObject:
   m_ObjectHideFlags: 0
@@ -294,6 +310,7 @@ GameObject:
   - component: {fileID: 4466001591627244276}
   - component: {fileID: 4466001591627244274}
   - component: {fileID: 4466001591627244277}
+  - component: {fileID: 5486494034831783849}
   m_Layer: 5
   m_Name: Lights
   m_TagString: Untagged
@@ -313,7 +330,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4466001592973754832}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -358,6 +375,25 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!95 &5486494034831783849
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4466001591627244279}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bc9133f2d5821194da44285f8ed2e938, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4466001591844116861
 GameObject:
   m_ObjectHideFlags: 0
@@ -388,7 +424,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4466001592973754832}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -625,6 +661,7 @@ GameObject:
   - component: {fileID: 4466001592417248133}
   - component: {fileID: 4466001592417248132}
   - component: {fileID: 4466001592417248130}
+  - component: {fileID: 6926384619988774596}
   m_Layer: 5
   m_Name: Frog
   m_TagString: Untagged
@@ -699,7 +736,7 @@ Animator:
   m_GameObject: {fileID: 4466001592417248134}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 996dd9241d8fa11429944df09ebb253d, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -708,6 +745,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &6926384619988774596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4466001592417248134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de964f4b07c584442bf3d34fcf513bfa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioTrack1: {fileID: 0}
+  _audioTrack2: {fileID: 0}
+  _audioTrack3: {fileID: 0}
 --- !u!1 &4466001592973754835
 GameObject:
   m_ObjectHideFlags: 0
@@ -740,8 +792,8 @@ RectTransform:
   - {fileID: 1779444218383717494}
   - {fileID: 7878519453838318723}
   - {fileID: 4466001592417248135}
-  - {fileID: 4466001591844116858}
   - {fileID: 4466001591627244276}
+  - {fileID: 4466001591844116858}
   m_Father: {fileID: 4466001592221483926}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -876,6 +928,7 @@ GameObject:
   - component: {fileID: 4407870981995691323}
   - component: {fileID: 8639561553231796251}
   - component: {fileID: 3563276021181844633}
+  - component: {fileID: 4402634651032678300}
   m_Layer: 5
   m_Name: Frog (2)
   m_TagString: Untagged
@@ -950,7 +1003,7 @@ Animator:
   m_GameObject: {fileID: 6375521541973375027}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bba9365dda4f60f43a2d92b535bdb2b6, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -959,6 +1012,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &4402634651032678300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6375521541973375027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de964f4b07c584442bf3d34fcf513bfa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioTrack1: {fileID: 0}
+  _audioTrack2: {fileID: 0}
+  _audioTrack3: {fileID: 0}
 --- !u!1001 &6878880518539890569
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1059,6 +1127,22 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3589909843735951138, guid: 1b39727c1c4db564fbf97862f918c8b5, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4897011863772691187, guid: 1b39727c1c4db564fbf97862f918c8b5, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4897011863772691187, guid: 1b39727c1c4db564fbf97862f918c8b5, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4897011863772691187, guid: 1b39727c1c4db564fbf97862f918c8b5, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4897011863772691187, guid: 1b39727c1c4db564fbf97862f918c8b5, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
@@ -1505,6 +1589,22 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7773432793287404787, guid: c15c49ca6bdca524fa08d83c14fe4649, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7773432793287404787, guid: c15c49ca6bdca524fa08d83c14fe4649, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7773432793287404787, guid: c15c49ca6bdca524fa08d83c14fe4649, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7773432793287404787, guid: c15c49ca6bdca524fa08d83c14fe4649, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c15c49ca6bdca524fa08d83c14fe4649, type: 3}
 --- !u!224 &4466001592658867978 stripped
@@ -1781,6 +1881,22 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8926055967369464792, guid: 7b7f08e2520b71d4198c1f6601befa19, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9075225443981896430, guid: 7b7f08e2520b71d4198c1f6601befa19, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9075225443981896430, guid: 7b7f08e2520b71d4198c1f6601befa19, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9075225443981896430, guid: 7b7f08e2520b71d4198c1f6601befa19, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9075225443981896430, guid: 7b7f08e2520b71d4198c1f6601befa19, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
