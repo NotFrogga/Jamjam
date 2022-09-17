@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a44c72ae7ded73f439a6c7c3bd9a0be5, type: 3}
-  m_Name: Palo_Bass
+  m_Name: Eurodance_Bass
   m_EditorClassIdentifier: 
-  _instrumentId: 5
-  _sprite: {fileID: 0}
-  _instrumentType: 0
-  _instrumentFamily: 6
+  _instrumentId: 23
+  _sprite: {fileID: 21300000, guid: eb621f840b2e66d43b25ea3aa3d3bed3, type: 3}
+  _instrumentType: 2
+  _instrumentFamily: 3
