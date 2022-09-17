@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{bd5ff9c7-ddac-4e7a-b64b-d03b3200eaa9}">
+		<property name="assetPath">
+			<value>HouseChill/HouseChill_Melody.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>8.7613605442176876</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{27a5b275-23b5-4908-ba5f-a45554984d80}</destination>
+		</relationship>
+	</object>
+</objects>
