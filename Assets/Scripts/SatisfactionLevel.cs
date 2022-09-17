@@ -5,9 +5,10 @@ using UnityEngine;
 public class GameManager: MonoBehaviour
 {
     [SerializedField] public MusicUI _musicUI;
+    [SerializedField] private double[] palliers;
                                              
-    private double _jauge;
-    private double _speed;
+    private double _score;
+    private double _deltaScore;
     private double _pallier;
     private int _timer;
 
@@ -20,14 +21,8 @@ public class GameManager: MonoBehaviour
         _timer = 0;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        _jauge += _speed;
-        if (_jauge > _pallier + 1)
-            _pallier += 1;
-        _timer++;
-    }
+    
+    
 
     public void SetInstrument(Instrument instrument)
     {
@@ -49,9 +44,15 @@ public class GameManager: MonoBehaviour
         }
                 refreshDeltaScore();
     }
-
+    // Update is called once per frame
     void Update()
     {
-        score += deltaScore * Time.DeltaTime;
+        _score += _deltaScore * Time.DeltaTime;
+        refreshUnlock();
+    }
+
+    private void refreshUnlock()
+    {
+        
     }
 }
