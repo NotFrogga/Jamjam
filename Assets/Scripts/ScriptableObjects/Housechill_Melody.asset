@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Housechill_Melody
   m_EditorClassIdentifier: 
   _instrumentId: 3
-  _sprite: {fileID: 21300000, guid: f4ae7cca04379944db04e8316dbbc1fc, type: 3}
+  _sprite: {fileID: 21300000, guid: 3a45d939b601add4c9728976ff2f6952, type: 3}
   _instrumentType: 0
   _instrumentFamily: 0

@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Palo_Drums
   m_EditorClassIdentifier: 
   _instrumentId: 4
-  _sprite: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: e64db98424ec4bb4e960d7f437b2354d, type: 3}
   _instrumentType: 1
+  _instrumentFamily: 0

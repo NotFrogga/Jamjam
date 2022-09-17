@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a44c72ae7ded73f439a6c7c3bd9a0be5, type: 3}
-  m_Name: Palo_Melody
+  m_Name: Cute_bass
   m_EditorClassIdentifier: 
-  _instrumentId: 6
-  _sprite: {fileID: 21300000, guid: 4228cbc168db10a46a05d4a9af86f88b, type: 3}
-  _instrumentType: 0
-  _instrumentFamily: 0
+  _instrumentId: 11
+  _sprite: {fileID: 21300000, guid: 03dd2ac28ea0a1647901694c30eea1ef, type: 3}
+  _instrumentType: 2
+  _instrumentFamily: 1
