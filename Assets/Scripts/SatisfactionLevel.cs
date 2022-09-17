@@ -2,8 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SatisfactionLevel : MonoBehaviour
+public class GameManager: MonoBehaviour
 {
+    [SerializedField] public MusicUI _musicUI;
+                                             
     private double _jauge;
     private double _speed;
     private double _pallier;
@@ -25,5 +27,31 @@ public class SatisfactionLevel : MonoBehaviour
         if (_jauge > _pallier + 1)
             _pallier += 1;
         _timer++;
+    }
+
+    public void SetInstrument(Instrument instrument)
+    {
+                switch (instrument.InstrumentType)
+        {
+            case InstrumentType.MELODY:
+                _melodyTrack.SetInstrumentId(instrument.InstrumentId);
+                break;
+            case InstrumentType.DRUMS:
+                _drumsTrack.SetInstrumentId(instrument.InstrumentId);
+                break;
+            case InstrumentType.BASS:
+                _bassTrack.SetInstrumentId(instrument.InstrumentId);
+                break;
+            case InstrumentType.INSTRUMENTNUMBER:
+                break;
+            default:
+                break;
+        }
+                refreshDeltaScore();
+    }
+
+    void Update()
+    {
+        score += deltaScore * Time.DeltaTime;
     }
 }

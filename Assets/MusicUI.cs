@@ -19,6 +19,8 @@ public class MusicUI : MonoBehaviour
     [SerializeField] private GameObject _tabBatteryGO;
     [SerializeField] private GameObject _tabBassGO;
 
+    [SerializeField] private GameManager _gameManager;
+
     private void Awake()
     {
         _tabMelodyGO.SetActive(true);
@@ -64,22 +66,6 @@ public class MusicUI : MonoBehaviour
 
     public void PlayInstrument(Instrument instrument)
     {
-        switch (instrument.InstrumentType)
-        {
-            case InstrumentType.MELODY:
-                _melodyTrack.SetInstrumentId(instrument.InstrumentId);
-                break;
-            case InstrumentType.DRUMS:
-                _drumsTrack.SetInstrumentId(instrument.InstrumentId);
-                break;
-            case InstrumentType.BASS:
-                _bassTrack.SetInstrumentId(instrument.InstrumentId);
-                break;
-            case InstrumentType.INSTRUMENTNUMBER:
-                break;
-            default:
-                break;
-        }
-
+        _gameManager.SetInstrument(instrument);
     }
 }
