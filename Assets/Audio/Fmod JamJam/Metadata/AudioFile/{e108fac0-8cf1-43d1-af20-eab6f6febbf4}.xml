@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{e108fac0-8cf1-43d1-af20-eab6f6febbf4}">
+		<property name="assetPath">
+			<value>TranceLSDB_Melody.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>8.7272708333333338</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{27a5b275-23b5-4908-ba5f-a45554984d80}</destination>
+		</relationship>
+	</object>
+</objects>
